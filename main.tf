@@ -8,7 +8,7 @@ resource "aws_instance" "web" {
 }
 
 variable region {}
-variable ami {}
+variable ami_id {}
 variable instance_type {}
 
 
